@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins';font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-bg {
+    object-fit: cover;
+}
+  /* Header dan author styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #202020;
+}
+
+  /* Styling untuk gambar */
+  .image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  /* Styling untuk bagian teks penjelasan */
+  .explanation {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    color: #444;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .footer {
+    background-color: #00ffff;
+    padding: 30px;
+  }
+  
+  .footer .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .col-md-6 {
+    flex-basis: 50%;
+  }
+  
+  .footer .text-right {
+    text-align: right;
+  }
+  
+  .footer ul.list-inline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer ul.list-inline li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer ul.list-inline li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer ul.list-inline a {
+    color: #202020;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  .footer ul.list-inline a:hover {
+    color: #202020;
+  }
